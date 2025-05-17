@@ -1,10 +1,33 @@
 """ While loop stops once its condition meets false statement or we can also use (BREAK) to exit from while loop even
 when the codition is true
+
+condition: 
+A boolean expression (True or False)
+The loop runs until the condition becomes False
+Make sure to update something inside the loop, or it may run forever!
+
+
 From a function's perspective:
 A parameter is the variable listed inside the parentheses in the function definition.
 An argument is the value that is sent to the function when it is called.
 
+Placement of print under while loop can have differences in the output:
+Ex- 1: When print statement is before break - It will include 6 in the output.
+counter = 0
+while counter < 10:
+    print(counter)
+    if counter == 6:
+        break
+    counter += 1
 
+Ex- 2: when print statement is used after break - It will not include 6 in the output.
+counter = 0
+while counter < 10:
+    
+    if counter == 6:
+        break
+    print(counter)
+    counter += 1
 
 """
 
