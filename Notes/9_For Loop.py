@@ -102,7 +102,8 @@ fruits = ['apple', 'banana', 'cherry']
 for index, fruit in enumerate(fruits):
     print(f"Index: {index}, Fruit: {fruit}")
 
-    """| Feature     | f-string                  | `.format()`                          |
+"""
+| Feature     | f-string                  | `.format()`                          |
 | ----------- | ------------------------- | ------------------------------------ |
 | Syntax      | `f"Text {var}"`           | `"Text {}".format(var)`              |
 | Readability | Cleaner and more readable | Slightly more verbose                |
