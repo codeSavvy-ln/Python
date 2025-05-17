@@ -101,3 +101,12 @@ fruits = ['apple', 'banana', 'cherry']
 
 for index, fruit in enumerate(fruits):
     print(f"Index: {index}, Fruit: {fruit}")
+
+    """| Feature     | f-string                  | `.format()`                          |
+| ----------- | ------------------------- | ------------------------------------ |
+| Syntax      | `f"Text {var}"`           | `"Text {}".format(var)`              |
+| Readability | Cleaner and more readable | Slightly more verbose                |
+| Version     | Python 3.6+               | Python 2.7 and 3.x                   |
+| Performance | Slightly faster           | Slightly slower                      |
+| Best for    | Most use cases            | Older codebases, advanced formatting |
+"""
