@@ -204,5 +204,5 @@ arguments = Input parameters fr the function (similar to regular function argume
 expression = A single expression that is evaluated and returned.
 
 add = lambda x,y : x+y
-print (add(3,5))1
+print (add(3,5))
 """
