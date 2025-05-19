@@ -18,4 +18,3 @@ system scripting.
  examples are - Thonny, Pycharm, Netbeans or Eclipse.
 """
 print("Hello world")
-print("Hello world")
