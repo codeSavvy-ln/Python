@@ -16,7 +16,7 @@ Each word, except the first, starts with a capital letter: myVariableName
     Upper Camel Case - MyVariableName
 
     Pascal Case
-Each word starts with a capital letter: myVariableName
+Each word starts with a capital letter: MyVariableName
 
     Snake Case
 Each word is separated by an underscore character: my_variable_name
@@ -126,7 +126,7 @@ Can be access        can be              Can't access by index/key
 
 dct were unorderd till python 3.6
 
-Ordered; Chnageable = Data within the collection is ordered and changeble
+Ordered; Changeable = Data within the collection is ordered and changeble
 Duplicate = If the duplicate date/members are allowed or not in the collections
 
 
@@ -207,10 +207,6 @@ print(10 / 2)  # Output: 5.0
 print(-10 / 3) # Output: -3.3333333333333335
 
 
-
-"""
-
-"""
 \'	    Single Quote	
 \\	    Backslash	
 \n	    New Line	
@@ -220,4 +216,15 @@ print(-10 / 3) # Output: -3.3333333333333335
 \f	    Form Feed	
 \ooo	Octal value	
 \XHH (in small letters)	Hex value
+
+| Desired Type     | Example Code                             | Example Input | Result            |
+| ---------------- | ---------------------------------------- | ------------- | ----------------- |
+| **String**       | `name = input()`                         | `"Alice"`     | `'Alice'` (str)   |
+| **Integer**      | `age = int(input())`                     | `25`          | `25` (int)        |
+| **Float**        | `price = float(input())`                 | `9.99`        | `9.99` (float)    |
+| **Boolean**      | `flag = bool(int(input()))`              | `1`           | `True` (bool)     |
+| **List**         | `lst = input().split()`                  | `a b c`       | `['a', 'b', 'c']` |
+| **Tuple**        | `tpl = tuple(input().split())`           | `1 2 3`       | `('1', '2', '3')` |
+| **List of ints** | `nums = list(map(int, input().split()))` | `1 2 3`       | `[1, 2, 3]`       |
+
 """
