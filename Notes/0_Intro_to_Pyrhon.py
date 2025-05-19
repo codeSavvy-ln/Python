@@ -19,4 +19,3 @@ system scripting.
 """
 print("Hello world")
 print("Hello world")
-print("Hello world")
