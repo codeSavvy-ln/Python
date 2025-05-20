@@ -13,7 +13,7 @@
 
 year = int(input("Enter a year: "))
 print(is_leap(year))
-"""
+
 
 if __name__ == '__main__':
     x = int(input())
@@ -27,3 +27,8 @@ coordinates = [[i, j, k]
                if i + j + k != n]
 
 print(coordinates)
+
+num = {1,4.5,5,23,2}
+print(sum(num,start=10)) #output: 45
+
+"""
