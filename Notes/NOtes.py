@@ -263,15 +263,15 @@ Example:
 
 --------------------------------------------------------------------------------------------------------------------		
 
- Immutable         | Mutable                            |
-| ---------------- | ---------------------------------------- |     
-| **String**       | `name = input()`                         | 
-| **Integer**      | `age = int(input())`                     | 
-| **Float**        | `price = float(input())`                 |
-| **Boolean**      | `flag = bool(int(input()))`              | 
-| **List**         | `lst = input().split()`                  | 
-| **Tuple**        | `tpl = tuple(input().split())`           | 
-| **List of ints** | `nums = list(map(int, input().split()))` | 
+|    Immutable   |   Mutable     |
+|----------------|---------------|
+|   Str          |   list        |
+|   int          |   set         |
+|   float        |   dict        |
+|   bool         |"any other type|
+|   bytes        |used by 3rd    |
+|   tuple        |party library  |
+|                |or module"     |
+|________________|_______________|
 """
-
-print("|    Immutable   ")
+print("hello world")
