@@ -227,4 +227,40 @@ print(-10 / 3) # Output: -3.3333333333333335
 | **Tuple**        | `tpl = tuple(input().split())`           | `1 2 3`       | `('1', '2', '3')` |
 | **List of ints** | `nums = list(map(int, input().split()))` | `1 2 3`       | `[1, 2, 3]`       |
 
+
+---------------------------------------------------------------------------------------------------------------------
+List comprehension is a concise and elegant way to create lists in Python. It allows you to generate a new list by applying an expression to each item in an iterable (like a list, range, or string) and optionally filtering items based on a condition.
+
+Syntax: [expression for item in iterable if condition]
+
+expression: The operation or value to include in the new list.			
+item: The variable representing each element in the iterable.			
+iterable: The collection (e.g., list, range, string) to iterate over.			
+if condition (optional): A filter to include only specific items.
+
+Example:
+1	Simple List Creation: Create a list of squares of numbers from 0 to 9:							
+	squares = [x**2 for x in range(10)]						squares = []	
+	print(squares)			[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]			for x in range(10):	
+							squares.append(x**2)	
+2	With a Condition: Create a list of even numbers from 0 to 9:							
+	evens = [x for x in range(10) if x % 2 == 0]				[0, 2, 4, 6, 8]			
+	print(evens)							
+								
+3	Transforming Items: Convert a list of strings to uppercase:							
+	words = ['hello', 'world', 'python']							
+	uppercase_words = [word.upper() for word in words]				['HELLO', 'WORLD', 'PYTHON']			
+	print(uppercase_words)							
+								
+4	Nested loops: Create a list of all pairs (x, y) where x is from 1 to 3 and y is from 1 to 2:							
+	pairs = [(x, y) for x in range(1, 4) for y in range(1, 3)]							
+	print(pairs)				[(1, 1), (1, 2), (2, 1), (2, 2), (3, 1), (3, 2)]			
+								
+5	Flatten a nested list: Flatten a 2D list:							
+	matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]							
+	flattened = [num for row in matrix for num in row]				[1, 2, 3, 4, 5, 6, 7, 8, 9]			
+	print(flattened)					
+
+--------------------------------------------------------------------------------------------------------------------		
+
 """
