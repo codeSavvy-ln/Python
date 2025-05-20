@@ -263,4 +263,15 @@ Example:
 
 --------------------------------------------------------------------------------------------------------------------		
 
+ Immutable         | Mutable                            |
+| ---------------- | ---------------------------------------- |     
+| **String**       | `name = input()`                         | 
+| **Integer**      | `age = int(input())`                     | 
+| **Float**        | `price = float(input())`                 |
+| **Boolean**      | `flag = bool(int(input()))`              | 
+| **List**         | `lst = input().split()`                  | 
+| **Tuple**        | `tpl = tuple(input().split())`           | 
+| **List of ints** | `nums = list(map(int, input().split()))` | 
 """
+
+print("|    Immutable   ")
