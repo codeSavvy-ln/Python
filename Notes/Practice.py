@@ -32,3 +32,10 @@ num = {1,4.5,5,23,2}
 print(sum(num,start=10)) #output: 45
 
 """
+num = [4,5,2,3,-1,0,9]
+sorted_nums_Ascending = sorted(num)
+sorted_nums_Descending = sorted(num, reverse =True)
+
+
+print(sorted_nums_Ascending)
+print(sorted_nums_Descending)
