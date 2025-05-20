@@ -274,4 +274,3 @@ Example:
 |                |or module"     |
 |________________|_______________|
 """
-print("hello world")
