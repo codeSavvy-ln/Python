@@ -276,3 +276,4 @@ Example:
 """
 
 print("Hello")
+print("Hello")
