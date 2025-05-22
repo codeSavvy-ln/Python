@@ -34,7 +34,8 @@ b = False
 if a and b or not a:
     print("Go")
 else:
-    print("Stop") #Output: Stop (because if, the if statement returns false value then it will always print the else statement.
+    print("Stop") 
+                                                #Output: Stop (because if, the if statement returns false value then it will always print the else statement.
 
 
 
@@ -63,16 +64,26 @@ print(sorted_keys)
 
 tasks =["Write report", "Attend meeting","Review code","Submit timesheet"]
 
-for x in range(len(tasks)):
+for x in range(len(tasks)):   or #for x, task in enumerate(tasks):
     print(f"{x +1}. {tasks[x]}")
 
+                                                        #Output
+                                                        1. Write report
+                                                        2. Attend meeting
+                                                        3. Review code
+                                                        4. Submit timesheet
+
+_____________________________________________________________________________________
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))  # Convert to list to reuse
+    max_score = max(arr)
+    score = [x for x in arr if x != max_score]
+    sec = max(score)
+    print(sec)
+_____________________________________________________________________________________
+
 """
-#Output
-1. Write report
-2. Attend meeting
-3. Review code
-4. Submit timesheet
-""""
 
-
-    """
+print("eh")
