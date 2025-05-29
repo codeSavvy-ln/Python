@@ -17,4 +17,3 @@ system scripting.
     IDE (Integrated development Environment)
  examples are - Thonny, Pycharm, Netbeans or Eclipse.
 """
-print("Hello world")
