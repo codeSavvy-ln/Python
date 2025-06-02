@@ -89,7 +89,7 @@ def change(lst):
     lst.append(4)
     lst = [5, 6, 7]
 
-ls = [1,2,3]
-change(ls)
+lss = [1,2,3]
+change(lss)
 
-print(ls)
+print(lss)
