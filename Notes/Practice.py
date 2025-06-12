@@ -89,7 +89,7 @@ for i in range(3):
     for j in range(3):
         if j ==3:
             break
-    print(f"{i}-{j}")
+        print(f"{i}-{j}")
 
 
 
