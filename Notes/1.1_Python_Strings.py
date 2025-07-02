@@ -1,7 +1,12 @@
                     #Check String is present or not in the variable
 
 """To check if a certain phrase or character is present in a string, we can use the
-keyword in and not in keyword to check if the string is not present """
+keyword in and not in keyword to check if the string is not present
+
+String can be created by using both single and double quote but One reason for choosing double quotes is if we want to use an apostrophe because this is the same character as a single quote. 
+
+aposrophe = "what's your name?"
+ """
 
 txt = "The best things in life are free!"
 print("free" in txt)
