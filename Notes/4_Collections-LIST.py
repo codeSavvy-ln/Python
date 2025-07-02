@@ -16,6 +16,17 @@ Duplicate           No duplicate            No duplicate                  duplic
 Can be access        can be              Can't access by index/key
                     only copy()
 mutable             mutable                 mutable                        immutable
+
+
++----------------+--------------+-----------+----------------------+---------+------------------+
+| Data structure | Syntax       | Immutable | Allow duplicate vals | Ordered | Subset with []   |
++----------------+--------------+-----------+----------------------+---------+------------------+
+| List           | [1, 2, 3]    | No        | Yes                  | Yes     | Yes - index      |
+| Dictionary     | {key:value}  | No        | Yes                  | Yes     | Yes - key        |
+| Set            | {1, 2, 3}    | No        | No                   | No      | No               |
+| Tuple          | (1, 2, 3)    | Yes       | Yes                  | Yes     | Yes - index      |
++----------------+--------------+-----------+----------------------+---------+------------------+
+
 """
 list_of_random_values = [31, 4, 31.5 , 3,"Yes"]
 
