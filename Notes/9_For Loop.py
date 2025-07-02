@@ -6,7 +6,13 @@
  for value in sequence:
 	action
 for each value in sequence, perform action 
-     action is intended because of the colon in the previous line
+
+action = is intended because of the colon in the previous line
+
+Sequence = Iterable ex - list, dict
+
+value = iterator i.e. the index
+ placeholder (can give it any name), I is common
 
 syntax - for var in range(number):
 in is operator in above synatx
@@ -57,6 +63,20 @@ for x in range(3,15,4):
 print("\n")
                         # ADVANCE
 
+#Looping through the dictioneries
+
+products_dict = {
+    "AG32": 87.99,
+    "HT91": 21.50,
+    "PL65": 43.75,
+    "OS31": 19.99,
+    "KB07": 62.95,
+    "TR48": 98.0
+}
+
+# Loop through keys and values
+for key, val in products_dict.items():
+    print(key, val)
 
 
                     #PRACTICE (ADVANCE)
