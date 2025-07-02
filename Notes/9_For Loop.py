@@ -3,6 +3,11 @@
 # break is used at the end of the loop to stop the loop once we get the desired output
 # cell, Fruit_item, fruit_character
 
+ for value in sequence:
+	action
+for each value in sequence, perform action 
+     action is intended because of the colon in the previous line
+
 syntax - for var in range(number):
 in is operator in above synatx
 
