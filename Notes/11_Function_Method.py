@@ -3,6 +3,14 @@
 #Function is a block of code which is only run when it is called
 These are used to separate the code
 
+MODULES-
+
+These are the files with .py extension and are used to perform specific task by importing them.
+
+there are 2 types of modules:
+    built-in modules - Python has around 200 built modules to use like pandas, NumPy, os etc
+    User-defined - User can also create a module and import it for any specific use.
+
 2 types of function
 
 1. built in function -  do not to define them with def()
