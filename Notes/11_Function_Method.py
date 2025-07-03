@@ -219,4 +219,13 @@ print (add(3,5))
 
 we can also store a lambda as a variable
 average = lambda x: sum(x) / len(x)
+
+| **Scenario**            | **Function Type** |
+| ----------------------- | ----------------- |
+| Complex task            | Custom            |
+| Same task several times | Custom            |
+| Simple task             | Lambda            |
+| Performed once          | Lambda            |
+
+
 """
