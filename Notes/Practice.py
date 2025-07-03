@@ -86,15 +86,15 @@ ________________________________________________________________________________
 
 """
 
-visits= 0
-for i in range(1,11):
-    visits += 1
-
-    print(visits)
 
 
 
 
+from datetime import date
+
+deadline = date(2024,1,19)
+
+print(type(deadline))
 
 
 
