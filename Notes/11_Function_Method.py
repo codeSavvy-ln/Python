@@ -3,6 +3,9 @@
 #Function is a block of code which is only run when it is called
 These are used to separate the code
 
+function is a code to perform the task
+Method is a function that is specific to a data type
+
 MODULES-
 
 These are the files with .py extension and are used to perform specific task by importing them.
@@ -213,4 +216,7 @@ expression = A single expression that is evaluated and returned.
 
 add = lambda x,y : x+y
 print (add(3,5))
+
+we can also store a lambda as a variable
+average = lambda x: sum(x) / len(x)
 """

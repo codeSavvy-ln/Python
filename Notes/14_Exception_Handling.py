@@ -51,11 +51,19 @@ b=0
 print (a/b)
 
 #TypeError
+It occurs when try to use an incompatible data type while performing a task for example when we try to add a string to an integer
+
+variable = "Integer" + 5
 
 a=5
 b='1'
 print (a/b)
 
+ValueError
+
+When provided value is not in acceptable range. for example when we try to convert string "Hello" to a float.
+
+float("Hello")
 
 #Basic Example-
 try:
@@ -77,6 +85,12 @@ try:
 except CustomError as e:
     print("Caught:", e)
 
+_______________________________________________________________
+    Try-except                   vs             raise
+_______________________________________________________________
+Avoid errors being produced   | will produce an error
+Still execute subsequent error| Avoid executing subsequent code
+
 """
 # Track the exception message by giving it an Alias name-
 try:
@@ -85,3 +99,35 @@ try:
     print(a/b)
 except Exception as e:
     print("Exception error is: " ,e)
+
+"""
+BaseException
+├── BaseExceptionGroup
+├── GeneratorExit
+├── KeyboardInterrupt
+├── SystemExit
+└── Exception
+    ├── ArithmeticError
+    │   ├── FloatingPointError
+    │   ├── OverflowError
+    │   └── ZeroDivisionError
+    ├── AssertionError
+    ├── AttributeError
+    ├── BufferError
+    ├── EOFError
+    ├── ExceptionGroup (BaseExceptionGroup)
+    ├── ImportError
+    │   └── ModuleNotFoundError
+    ├── LookupError
+    │   ├── IndexError
+    │   └── KeyError
+    ├── MemoryError
+    ├── NameError
+    │   └── UnboundLocalError
+    └── OSError
+        ├── BlockingIOError
+        ├── ChildProcessError
+        └── ConnectionError
+            └── BrokenPipeError
+
+"""
