@@ -275,6 +275,5 @@ Example:
 |________________|_______________|
 """
 print("ASW")
-print("ASW")
-print("ASW")
+
 
