@@ -45,6 +45,15 @@ Example:-
 #2 - Keyword argumetns
 Arguments passed to a function by explicitly specifying the parameter name along with the value.
 
+| **Argument Type**        | **Syntax in Function** | **Description**                                                    | **Example Call**             |
+| ------------------------ | ---------------------- | ------------------------------------------------------------------ | ---------------------------- |
+| **Positional**           | `def func(a, b):`      | Arguments matched by position.                                     | `func(10, 20)`               |
+| **Keyword**              | `def func(a, b):`      | Arguments passed with parameter names.                             | `func(a=10, b=20)`           |
+| **Default**              | `def func(a, b=5):`    | Provides default value if argument not supplied.                   | `func(10)` or `func(10, 20)` |
+| **Arbitrary Positional** | `def func(*args):`     | Accepts any number of extra **positional** arguments as a tuple.   | `func(1, 2, 3, 4)`           |
+| **Arbitrary Keyword**    | `def func(**kwargs):`  | Accepts any number of extra **keyword** arguments as a dictionary. | `func(name="Ankit", age=25)` |
+
+
 Example:-
 def greet(name, age):
     print(f"Hello {name}, you are {age} years old.")

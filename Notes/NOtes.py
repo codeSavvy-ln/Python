@@ -277,4 +277,8 @@ Example:
 
 
 
+def my_funtion(country = "Canada"):
+    print("i am from " +str(country))
 
+my_funtion()
+my_funtion("Italy")
