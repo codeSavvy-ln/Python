@@ -277,4 +277,10 @@ Example:
 
 
 
+number = 0
+while number < 10:
 
+    if number == 6:
+        break                                                         #BREAK 
+    print("Number +1 to 6= " + str(number))
+    number += 1
