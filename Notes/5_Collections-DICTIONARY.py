@@ -2,7 +2,7 @@
 
 """
 To access the item from dict, there are 2 ways:
-1. Use Key name inside square bracket - ["brand'}
+1. Use Key name inside square bracket - ["brand"]
 2. Use .get() function - get('brand')
 """
 dictrionary_example = {'name': 'Rachel', 'test-grade': 98, 'Salary': 50000}

@@ -1,5 +1,5 @@
-from datetime import date
+class CarClass:
+    year = 2000
+    print(year)
 
-deadline = date(2024,1,19)
-
-print(type(date))
+audi_a3 = CarClass() 

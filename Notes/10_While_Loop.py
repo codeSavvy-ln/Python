@@ -40,7 +40,7 @@ while number < 10:
 
 
 """
-#Prints number from 0 to 6 due to the while loop.
+#Prints number from 0 to 6 using to the while loop.
 
 number = 0
 while number < 10:
