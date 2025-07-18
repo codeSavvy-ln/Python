@@ -84,6 +84,3 @@ print(txt1)
 \XHH (in small letters)	Hex value
 """
 
-print("sa")
-
-print("sa")
